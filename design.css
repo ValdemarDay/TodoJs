@@ -1,0 +1,99 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    text-align: center;
+    height: 1000px;
+    background: linear-gradient(to top, #0372b3f6 5%, #01000a 90%);
+    color: #8691a3fb;
+}
+label {
+    font-size: 30px;
+}
+.Title {
+    font-size: 70px;
+}
+input {
+    display: inline-block;
+    border: 2px solid rgb(2, 25, 68);
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(0, 204, 255);
+    background-color: black;
+    text-align: left;
+    padding: 12px;
+    border-radius: 7px;
+}
+
+.todo-element {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    padding: 12px;
+    margin-bottom: 3px;
+    background-color: black;
+    border: 2px solid rgb(2, 25, 68);
+    color: rgb(0, 204, 255);
+}
+.todo-element:hover {
+    transform: scale(1.1);
+    color: rgb(0, 204, 255);
+    transition: 0.2s;
+}
+
+.todo-completed {
+    text-align: center;
+    width: 150px;
+    display: inline-block;
+    margin: 20px auto;
+    border: 2px solid rgb(2, 25, 68);
+    padding: 10px 20px;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(0, 204, 255);
+    background-color: black;
+    padding: 12px;
+    border-radius: 7px;
+}
+
+.todo-button-delete {
+    cursor: pointer;
+    color: crimson;
+}
+.todo-button-complete {
+    cursor: pointer;
+    color: green;
+}
+
+.List {
+    text-align: center;
+    width: 150px;
+    display: inline-block;
+    margin: 20px auto;
+    border: 2px solid rgb(2, 25, 68);
+    padding: 10px 20px;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(0, 204, 255);
+    background-color: black;
+    padding: 12px;
+    border-radius: 7px;
+}
+
+.Lists {
+    justify-content: space-between;
+}
+
+.todo-select {
+    display: inline-block;
+    font-size: 24px;
+    width: auto;
+    height: auto;
+    margin-bottom: 3px;
+    background-color: black;
+    border: 2px solid rgb(2, 25, 68);
+    color: rgb(0, 204, 255);
+}

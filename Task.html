@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="design.css">
+  <title>Todo</title>
+</head>
+<body>
+  <h1 class="Title">Your Todo's</h1>
+  <div style="display: flex; flex-direction: column; align-items: center">
+  <form id="todo-form">
+  <label>Add todo:</label>
+  <input placeholder="Add Todo" type="text" id="our_input" style="margin-bottom: 12px"/>
+  <input type="submit" value="+">
+  <select id="myselect" class="todo-select">
+    <option selected value="ALL"  id="All">All</option>
+    <option value="Complete" id="Complete">Complete</option>
+    <option value="Active" id="Active">Active</option>
+  </select>
+  <form class="add-form">
+</form>
+<form>
+<div class="todo-list"></div>
+<input placeholder="find your todo..." id="todo-search" type="text" style="color: rgb(0, 204, 255);">
+<div class="todo-list-search"></div>
+<div style="display: flex; flex-direction: right; align-items: center"></div>
+</form>
+</div>
+  <script src="Script.js"></script>
+</body>
+</html>
